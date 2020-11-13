@@ -17,7 +17,7 @@ public final class TestBankAccount {
         final BankAccount acc1 = new SimpleBankAccount(usr1.getUserID(), 0);
 
         // TODO Change the implementation from StrictBankAccount to ExtendedStrictBankAccount
-        final BankAccount acc2 = new StrictBankAccount(usr2.getUserID(), 0);
+        final BankAccount acc2 = new ExtendedStrictBankAccount(usr2.getUserID(), 0);
 
         acc1.deposit(usr1.getUserID(), DEPOSIT);
         acc2.deposit(usr2.getUserID(), DEPOSIT);
